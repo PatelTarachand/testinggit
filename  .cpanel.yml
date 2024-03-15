@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aioesopg/test.codaxoinfotech.com/
+    - /bin/cp * $DEPLOYPATH
+
